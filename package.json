@@ -1,0 +1,24 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^10.7.1",
+    "@types/react": "^16.4.11",
+    "@types/react-bootstrap": "^0.32.11",
+    "@types/react-dom": "^16.0.7",
+    "npm": "^6.4.0",
+    "parcel": "^1.9.7",
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.2",
+    "tachyons": "^4.11.1"
+  },
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  }
+}

@@ -1,0 +1,16 @@
+.mainContainer {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(to left, #accbee 0%, #e7f0fd 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.totalPrice {
+  white-space: nowrap;
+}
